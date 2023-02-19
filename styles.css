@@ -1,0 +1,100 @@
+html {
+    height: 100%;
+}
+body {
+    background: linear-gradient(-45deg, #5553ce, #361583);
+    background-size: auto;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@font-face {
+  font-family: Hacker Nerd Font Mono;
+  src: url(rsrc/Hack\ Italic\ Nerd\ Font\ Complete\ Mono.ttf);
+}
+
+a:link {
+  color: rgb(133, 140, 187);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+  color: rgb(133, 140, 187);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(89, 94, 131);
+    background-color: transparent;
+}
+
+a:active {
+    color: rgb(133, 140, 187);
+    background-color: transparent;
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+div.principal {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+div.title {
+  text-align: center;
+  font-family: Hacker Nerd Font Mono;
+  font-size: 72px;
+  line-height: 1;
+  color: white;
+}
+
+div.interest {
+  font-family: Hacker Nerd Font Mono;
+  font-size: 36px;
+  line-height: 1;
+  color: white;
+  padding-top: 5px;
+}
+
+div.post {
+  font-family: Hacker Nerd Font Mono;
+  font-size: 28px;
+  line-height: 0.5;
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+}
+
+div.links {
+    font-family: Hacker Nerd Font Mono;
+    font-size: 22px;
+    line-height: 0.5;
+    color: rgb(133, 140, 187);
+    text-align: center;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    background-position:center;
+    background-size: 24px 64px;
+    display: contents
+    left: 0;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+
